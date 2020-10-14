@@ -1,0 +1,32 @@
+/* Create your test CSS here */
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    padding: 5%;
+  }
+
+p span {
+    color: brown;
+    font-weight: bold;
+}
+
+p em {
+    color: crimson;
+    font-style: italic;
+}
+
+.special {
+    color: red;
+  }
+
+  @media (min-width: 1000px) {
+    p {
+      background: url(../images/ProjektPayne-Large.png);
+      padding: 10px 10px 10px 10px;
+    }
+  }
